@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Place searches</title>
+      <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+      <meta charset="utf-8">
+      <link rel = "stylesheet" type = "text/css" href = "places.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="places.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxVSc1FKZYdSJw9FxXYD_YZsk8Fn6ymEA&libraries=places&callback=initMap" async defer></script>
+   </head>
+   
+   <body>
+    <br />
+    <center>
+        <input id="pac-input" class="controls" type="text" placeholder="Gachibowli, Hyderabad, Telangana, India" style="margin: 0px auto;">
+    </center>
+
+   	<br />
+      <center>
+        <div id="floating-panel" class="btn-group" data-toggle="buttons">
+      
+        </div>
+      </center>
+    <br />
+      <div id="results" style="text-align: center;">
+      
+      </div>
+    <br />
+      <div id="map" >
+        
+      </div>  
+      
+   </body>
+</html>
+
